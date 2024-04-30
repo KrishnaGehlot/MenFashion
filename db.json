@@ -1,0 +1,505 @@
+{
+  "customer": [
+    {
+      "id": "",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "phone_Number": "1234567890",
+      "city": "",
+      "Password": ""
+    },
+    {
+      "id": "1712223359803",
+      "name": "Raja gehlot",
+      "email": "rajagehlot@gamil.com",
+      "phone_Number": "78965412222",
+      "city": "Rajasthanss",
+      "password": "11111",
+      "status": "Unblock",
+      "Image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "1713072165091",
+      "name": "mukuu",
+      "email": "mukuu@gmail1223gmail.com",
+      "phone_Number": "8985632541",
+      "city": "Ahmedabad",
+      "password": "123456",
+      "status": "Block"
+    },
+    {
+      "id": "1713072396848",
+      "name": "piyush",
+      "email": "piyush123@gmail.com",
+      "phone_Number": "888888855",
+      "city": "Rajasthan",
+      "password": "1234",
+      "status": "Unblock"
+    },
+    {
+      "id": "1713116692762",
+      "name": "raj",
+      "email": "raj22@gmail.com",
+      "phone_Number": "2353956",
+      "city": "Ahmedabad",
+      "password": "12345",
+      "status": "Unblock"
+    },
+    {
+      "id": "1713196715827",
+      "name": "hetu",
+      "email": "hetu1@gmail.com",
+      "phone_Number": "5632895623",
+      "city": "Ahmedabad",
+      "password": "1111111",
+      "status": "Unblock"
+    },
+    {
+      "id": "1713889242780",
+      "name": "salman",
+      "email": "salman@gmail.com",
+      "phone_Number": "52563635",
+      "city": "Rajasthan ",
+      "password": "1212",
+      "status": "Unblock",
+      "Image": "https://cdn.pixabay.com/photo/2022/06/28/05/44/style-boy-new-pose-for-men-7288888_1280.jpg"
+    },
+    {
+      "id": "1714380315975",
+      "name": "king",
+      "email": "king123@gmail.com",
+      "phone_Number": "52532636",
+      "city": "Rajasthan ",
+      "password": "123123",
+      "status": "Unblock"
+    }
+  ],
+  "Formal_outfit": [
+    {
+      "id": "1712315604532",
+      "Image": "https://m.media-amazon.com/images/I/71AtRc6-0-L._AC_UL480_FMwebp_QL65_.jpg",
+      "Prod_Name": "Formal dress",
+      "Prod_Description": "Men's Regular Fit Formal Shirt 3.8",
+      "Price": "1200",
+      "Prod_id": ""
+    },
+    {
+      "id": "1712316289254",
+      "Image": "https://m.media-amazon.com/images/I/61XnPWdRAWL._AC_UL480_FMwebp_QL65_.jpg",
+      "Prod_Name": "Diverse",
+      "Prod_Description": "Men Cotton Formal Shirt",
+      "Price": "566",
+      "Prod_id": ""
+    },
+    {
+      "id": "1712316419640",
+      "Image": "https://m.media-amazon.com/images/I/715yZdo6iWL._AC_UL480_FMwebp_QL65_.jpg",
+      "Prod_Name": "U-TURN",
+      "Prod_Description": "casual shirt",
+      "Price": "666",
+      "Prod_id": ""
+    },
+    {
+      "id": "1712318146592",
+      "Image": "https://m.media-amazon.com/images/I/71AtRc6-0-L._AC_UL480_FMwebp_QL65_.jpg",
+      "Prod_Name": "party",
+      "Prod_Description": "partydress",
+      "Price": "999",
+      "Prod_id": ""
+    },
+    {
+      "id": "1712378212123",
+      "Image": "https://m.media-amazon.com/images/I/71AtRc6-0-L._AC_UL480_FMwebp_QL65_.jpg",
+      "Prod_Name": "party",
+      "Prod_Description": "partydress",
+      "Price": "333",
+      "Prod_id": "1712318146592"
+    },
+    {
+      "id": "1712556533482",
+      "Image": "https://m.media-amazon.com/images/I/71qLsS5p5KL._AC_UL480_FMwebp_QL65_.jpg",
+      "Prod_Name": "party dressss",
+      "Prod_Description": "party white and blue shirt",
+      "Price": "999",
+      "Prod_id": "party"
+    },
+    {
+      "id": "1712740264369",
+      "cate_name": "Formal_outfit",
+      "Prod_Name": "formal ",
+      "Prod_Description": "formal paint blue",
+      "Price": "5555",
+      "Image": "https://m.media-amazon.com/images/I/71qLsS5p5KL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "1712744044998",
+      "cate_name": "Formal_outfit",
+      "Prod_Name": "party dressss",
+      "Prod_Description": "partydress",
+      "Price": "222",
+      "Image": "https://m.media-amazon.com/images/I/71qLsS5p5KL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "1712826113742",
+      "cate_name": "Formal_outfit",
+      "Prod_Name": "formalll dress",
+      "Prod_Description": "formal dress in paint",
+      "Price": "525252",
+      "Image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "1713196874850",
+      "cate_name": "Formal_outfit",
+      "Prod_Name": "formal dress",
+      "Prod_Description": "white shirt in perfect ",
+      "Price": "56556",
+      "Image": "https://m.media-amazon.com/images/I/71qLsS5p5KL._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+      "id": "1714385837540",
+      "cate_id": "",
+      "cate_name": "Formal_outfit",
+      "Prod_Name": "formal shirt",
+      "Prod_Description": " Men's Solid Regular fit Casual Shirt",
+      "Price": "1212",
+      "Image": "https://m.media-amazon.com/images/I/41FSmG8zlLL._AC_SR320,400_.jpg"
+    }
+  ],
+  "Casual": [
+    {
+      "id": "1712223972551",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003",
+      "Prod_Name": "casual ",
+      "Prod_Description": "partydress",
+      "Price": "1111"
+    },
+    {
+      "id": "1712315911946",
+      "Image": "https://m.media-amazon.com/images/I/71qLsS5p5KL._AC_UL480_FMwebp_QL65_.jpg",
+      "Prod_Name": "McHenry",
+      "Prod_Description": "Men's Slim Fit Shirt",
+      "Price": "500"
+    },
+    {
+      "id": "1712735048054",
+      "cate_name": "Casual",
+      "Prod_Name": "casual ",
+      "Prod_Description": "casual",
+      "Price": "55656",
+      "Image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "1714381370615",
+      "cate_id": "",
+      "cate_name": "Casual",
+      "Prod_Name": " Men's Cotton Regular Fit Short",
+      "Prod_Description": " Men's Solid Regular fit Casual Shirt",
+      "Price": "100",
+      "Image": "https://m.media-amazon.com/images/I/81vchXTD1KL._SX569_.jpg"
+    },
+    {
+      "id": "1714381561047",
+      "cate_id": "",
+      "cate_name": "Casual",
+      "Prod_Name": "N-NOPE. Men's Solid Cotton Blend ",
+      "Prod_Description": "Fit Lightweight and Comfortable Casual Wear Shirt ",
+      "Price": "65",
+      "Image": "https://m.media-amazon.com/images/I/61inKVyIUaL._SY741_.jpg"
+    },
+    {
+      "id": "1714381633341",
+      "cate_id": "",
+      "cate_name": "Casual",
+      "Prod_Name": "DEELMO Men's Cotton Blend Mandarin",
+      "Prod_Description": "Self One Design Full Sleeve Casual Short ",
+      "Price": "55",
+      "Image": "https://m.media-amazon.com/images/I/61jP8mz3XIL._SX679_.jpg"
+    },
+    {
+      "id": "1714381745825",
+      "cate_id": "",
+      "cate_name": "Casual",
+      "Prod_Name": "Dennis Lingo Men's Slim Fit",
+      "Prod_Description": "Dennis Lingo Men's Slim Fit Casual Shirt",
+      "Price": "35",
+      "Image": "https://m.media-amazon.com/images/I/71-0gpmRw4L._SY741_.jpg"
+    },
+    {
+      "id": "1714384649192",
+      "cate_id": "1712223972551",
+      "Prod_Name": "casualsss",
+      "Prod_Description": "Men's Solid Cotton",
+      "Price": "56",
+      "Image": "https://m.media-amazon.com/images/I/61Zjr852N3L._SY879_.jpg"
+    },
+    {
+      "id": "1714384735827",
+      "cate_id": "1712223972551",
+      "Prod_Name": "casualyyy",
+      "Prod_Description": "Fit Lightweight ",
+      "Price": "89",
+      "Image": "https://m.media-amazon.com/images/I/61Z4OcmBB3L._SX679_.jpg"
+    },
+    {
+      "id": "1714385543787",
+      "cate_id": "",
+      "Prod_Name": "casual",
+      "Prod_Description": "Celio Men's Solid Soft",
+      "Price": "111",
+      "Image": "https://m.media-amazon.com/images/I/61Z4OcmBB3L._SX679_.jpg"
+    },
+    {
+      "id": "1714385942522",
+      "cate_id": "1714381370615",
+      "Prod_Name": "formal",
+      "Prod_Description": "formal dress shirt ",
+      "Price": "565",
+      "Image": "https://m.media-amazon.com/images/I/81e3b9nT7KL._SX679_.jpg"
+    },
+    {
+      "id": "1714455118575",
+      "cate_id": "1712223972551",
+      "Prod_Name": "casual",
+      "Prod_Description": "men",
+      "Price": "1111",
+      "Image": "https://images.meesho.com/images/products/55058056/qi9bd_512.webp"
+    }
+  ],
+  "Party_Outfit": [
+    {
+      "id": "1712224179511",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003",
+      "Prod_Name": "party",
+      "Prod_Description": "partydress",
+      "Price": "1111"
+    },
+    {
+      "id": "1712316093807",
+      "Image": "https://m.media-amazon.com/images/I/71qLsS5p5KL._AC_UL480_FMwebp_QL65_.jpg",
+      "Prod_Name": "party",
+      "Prod_Description": "partydress shirt",
+      "Price": "999"
+    },
+    {
+      "id": "1712318985255",
+      "Image": "https://m.media-amazon.com/images/I/71AtRc6-0-L._AC_UL480_FMwebp_QL65_.jpg",
+      "Prod_Name": "krishna mmm",
+      "Prod_Description": "partydress",
+      "Price": "22222"
+    },
+    {
+      "id": "1712319284750",
+      "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReBm0sYeHhMk0ZeEHaMOVMOlMhD4vF5tDVte3DFfXMPw&s",
+      "Prod_Name": "party",
+      "Prod_Description": "partydress",
+      "Price": "99999"
+    },
+    {
+      "id": "1712319808433",
+      "Image": "https://www.manyavar.com/on/demandware.static/-/Library-Sites-ManyavarSharedLibrary/default/dwd62f235d/images/feeds/UC108635.jpg",
+      "Prod_Name": "party",
+      "Prod_Description": "partydress",
+      "Price": "999"
+    },
+    {
+      "id": "1712739123338",
+      "cate_name": "Party_Outfit",
+      "Prod_Name": "party dressss",
+      "Prod_Description": "partydress",
+      "Price": "56565",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003"
+    }
+  ],
+  "cargo_pants": [
+    {
+      "cate_name": "Business Professional",
+      "id": "1712217773884",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003",
+      "Prod_Name": "ssssss",
+      "Prod_Description": "ssss",
+      "Price": "sss"
+    },
+    {
+      "id": "1712217862772",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003",
+      "Prod_Name": "aaaa",
+      "Prod_Description": "aaa",
+      "Price": "1111"
+    },
+    {
+      "id": "1712217862772",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003",
+      "Prod_Name": "aaaa",
+      "Prod_Description": "aaa",
+      "Price": "1111"
+    },
+    {
+      "id": "1712217862772",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003",
+      "Prod_Name": "aaaa",
+      "Prod_Description": "aaa",
+      "Price": "1111"
+    },
+    {
+      "id": "1712731422187",
+      "cate_name": "cargo_pants",
+      "Prod_Name": "cargo",
+      "Prod_Description": "cargo paint",
+      "Price": "555",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003"
+    }
+  ],
+  "chambary": [
+    {
+      "id": "1712217862772",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003",
+      "Prod_Name": "aaaa",
+      "Prod_Description": "aaa",
+      "Price": "1111"
+    },
+    {
+      "id": "1712313570807",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003",
+      "Prod_Name": "party",
+      "Prod_Description": "partydress",
+      "Price": "222"
+    },
+    {
+      "id": "1712739157820",
+      "cate_name": "chambary",
+      "Prod_Name": "chambary",
+      "Prod_Description": "chambaryssssss",
+      "Price": "555555555",
+      "Image": "https://m.media-amazon.com/images/I/71qLsS5p5KL._AC_UL480_FMwebp_QL65_.jpg"
+    }
+  ],
+  "Contact": [
+    {
+      "full_name": "raja",
+      "email": "raja@hama",
+      "mobile": "52663598",
+      "subject": "casual",
+      "description": "white shirt",
+      "id": "8eaf"
+    },
+    {
+      "id": "1712227991035",
+      "full_name": "",
+      "email": "",
+      "mobile": "",
+      "subject": "",
+      "description": "",
+      "name": "raja"
+    },
+    {
+      "id": "1712228693797",
+      "full_name": "rajagehlot",
+      "email": "krishnagehlot22@gamil.com",
+      "mobile": "525698745",
+      "subject": "blue shirt",
+      "description": "perfect confortable shirt"
+    }
+  ],
+  "polo_shirt": [
+    {
+      "id": "1712231557538",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003",
+      "Prod_Name": "casual ",
+      "Prod_Description": "casual shirt",
+      "Price": "999",
+      "Prod_id": "12"
+    },
+    {
+      "id": "1712231578171",
+      "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReBm0sYeHhMk0ZeEHaMOVMOlMhD4vF5tDVte3DFfXMPw&s",
+      "Prod_Name": "party",
+      "Prod_Description": "partydress",
+      "Price": "555"
+    },
+    {
+      "id": "1712231601786",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003",
+      "Prod_Name": "casual paint",
+      "Prod_Description": "casual",
+      "Price": "999"
+    },
+    {
+      "id": "1712248018729",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003",
+      "Prod_Name": "formal",
+      "Prod_Description": "formal dress",
+      "Price": "555",
+      "Prod_id": ""
+    },
+    {
+      "id": "1712313866799",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003",
+      "Prod_Name": "party",
+      "Prod_Description": "partydress",
+      "Price": "999",
+      "Prod_id": ""
+    },
+    {
+      "id": "1712315073487",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003",
+      "Prod_Name": "formal",
+      "Prod_Description": "formal paint blue",
+      "Price": "555",
+      "Prod_id": ""
+    },
+    {
+      "id": "1712315191191",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003",
+      "Prod_Name": "party dressss",
+      "Prod_Description": "partydress",
+      "Price": "222",
+      "Prod_id": ""
+    },
+    {
+      "id": "1712315221544",
+      "Image": "https://imagescdn.planetfashion.in/img/app/product/7/748008-8442860.jpg?auto=format&w=494.40000000000003",
+      "Prod_Name": "party",
+      "Prod_Description": "partydress",
+      "Price": "1111",
+      "Prod_id": ""
+    }
+  ],
+  "tshirt": [
+    {
+      "id": "T1",
+      "Size": "M",
+      "Color": "Black",
+      "brand": "axyg"
+    },
+    {
+      "id": "T1",
+      "Size": "M",
+      "Color": "Black",
+      "brand": "axyg"
+    },
+    {
+      "id": "T1",
+      "Size": "M",
+      "Color": "Black",
+      "brand": "axyg"
+    },
+    {
+      "id": "T1",
+      "Size": "M",
+      "Color": "Black",
+      "brand": "axyg"
+    },
+    {
+      "id": "T1",
+      "Size": "M",
+      "Color": "Black",
+      "brand": "axyg"
+    },
+    {
+      "id": "T1",
+      "Size": "M",
+      "Color": "Black",
+      "brand": "axyg"
+    }
+  ]
+}
